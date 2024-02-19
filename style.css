@@ -48,7 +48,8 @@ a {
   color: var(--orange);
 }
 
-p {
+p,
+#footer {
   color: var(--gray-200);
 
   font-size: 14px;
@@ -57,4 +58,12 @@ p {
 
 #footer a + a {
   margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+  margin: 0 auto 8px;
+
+  border: 1px #eceff2 solid;
 }
