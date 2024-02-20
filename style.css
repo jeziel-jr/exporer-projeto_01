@@ -67,3 +67,9 @@ p,
 
   border: 1px #eceff2 solid;
 }
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
